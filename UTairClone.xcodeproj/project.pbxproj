@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AC23C771F9E936C006F363D /* MeetUpApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC23C731F9E936C006F363D /* MeetUpApi.swift */; };
+		3AC23C781F9E936C006F363D /* CitySearcherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC23C741F9E936C006F363D /* CitySearcherViewController.swift */; };
+		3AC23C791F9E936C006F363D /* CitySearcherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC23C751F9E936C006F363D /* CitySearcherViewModel.swift */; };
+		3AC23C7A1F9E936C006F363D /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC23C761F9E936C006F363D /* City.swift */; };
+		3AC23C821F9E9A30006F363D /* icnGlobalDotBig1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AC23C811F9E9A24006F363D /* icnGlobalDotBig1.png */; };
+		3AC23C831F9E9A34006F363D /* icnGlobalDotBig2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AC23C7F1F9E9A24006F363D /* icnGlobalDotBig2.png */; };
+		3AC23C861F9E9C4B006F363D /* icnGlobalDotsSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AC23C851F9E9C46006F363D /* icnGlobalDotsSmall.png */; };
+		3AC23C881F9EA855006F363D /* FlightOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC23C871F9EA855006F363D /* FlightOrder.swift */; };
+		3AC23C8A1F9EAB50006F363D /* PurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC23C891F9EAB50006F363D /* PurchaseViewController.swift */; };
+		3AC23C8C1F9EAE05006F363D /* FromToCitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC23C8B1F9EAE05006F363D /* FromToCitiesViewController.swift */; };
 		3AD724E51F9AA75B00F115F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD724E41F9AA75B00F115F9 /* AppDelegate.swift */; };
 		3AD724EA1F9AA75B00F115F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD724E81F9AA75B00F115F9 /* Main.storyboard */; };
 		3AD724EC1F9AA75B00F115F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AD724EB1F9AA75B00F115F9 /* Assets.xcassets */; };
@@ -14,9 +24,20 @@
 		3AD725031F9AE0F700F115F9 /* MyTickets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD725021F9AE0F700F115F9 /* MyTickets.storyboard */; };
 		3AD725051F9AE41700F115F9 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD725041F9AE41700F115F9 /* SignUp.storyboard */; };
 		3AD725071F9AE42F00F115F9 /* Purchase.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AD725061F9AE42F00F115F9 /* Purchase.storyboard */; };
+		DA26FFD49E74BBC84E0F56D9 /* Pods_UTairClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D582E68188186F87B6BA2968 /* Pods_UTairClone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AC23C731F9E936C006F363D /* MeetUpApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetUpApi.swift; sourceTree = "<group>"; };
+		3AC23C741F9E936C006F363D /* CitySearcherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySearcherViewController.swift; sourceTree = "<group>"; };
+		3AC23C751F9E936C006F363D /* CitySearcherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySearcherViewModel.swift; sourceTree = "<group>"; };
+		3AC23C761F9E936C006F363D /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		3AC23C7F1F9E9A24006F363D /* icnGlobalDotBig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icnGlobalDotBig2.png; sourceTree = "<group>"; };
+		3AC23C811F9E9A24006F363D /* icnGlobalDotBig1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icnGlobalDotBig1.png; sourceTree = "<group>"; };
+		3AC23C851F9E9C46006F363D /* icnGlobalDotsSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icnGlobalDotsSmall.png; sourceTree = "<group>"; };
+		3AC23C871F9EA855006F363D /* FlightOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightOrder.swift; sourceTree = "<group>"; };
+		3AC23C891F9EAB50006F363D /* PurchaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseViewController.swift; sourceTree = "<group>"; };
+		3AC23C8B1F9EAE05006F363D /* FromToCitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FromToCitiesViewController.swift; sourceTree = "<group>"; };
 		3AD724E11F9AA75B00F115F9 /* UTairClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UTairClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD724E41F9AA75B00F115F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AD724E91F9AA75B00F115F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -26,6 +47,9 @@
 		3AD725021F9AE0F700F115F9 /* MyTickets.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyTickets.storyboard; sourceTree = "<group>"; };
 		3AD725041F9AE41700F115F9 /* SignUp.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
 		3AD725061F9AE42F00F115F9 /* Purchase.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Purchase.storyboard; sourceTree = "<group>"; };
+		CF870DF330838C334A59B832 /* Pods-UTairClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UTairClone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UTairClone/Pods-UTairClone.debug.xcconfig"; sourceTree = "<group>"; };
+		D582E68188186F87B6BA2968 /* Pods_UTairClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UTairClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95F8638B45A85A9479D2B6D /* Pods-UTairClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UTairClone.release.xcconfig"; path = "Pods/Target Support Files/Pods-UTairClone/Pods-UTairClone.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +57,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA26FFD49E74BBC84E0F56D9 /* Pods_UTairClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A7C08B941EED018AE4C6052 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D582E68188186F87B6BA2968 /* Pods_UTairClone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F739F06EC74142117386EE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF870DF330838C334A59B832 /* Pods-UTairClone.debug.xcconfig */,
+				E95F8638B45A85A9479D2B6D /* Pods-UTairClone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3AC23C7B1F9E9379006F363D /* City Searcher */ = {
+			isa = PBXGroup;
+			children = (
+				3AC23C761F9E936C006F363D /* City.swift */,
+				3AC23C741F9E936C006F363D /* CitySearcherViewController.swift */,
+				3AC23C751F9E936C006F363D /* CitySearcherViewModel.swift */,
+				3AC23C731F9E936C006F363D /* MeetUpApi.swift */,
+			);
+			path = "City Searcher";
+			sourceTree = "<group>";
+		};
 		3AD724D81F9AA75B00F115F9 = {
 			isa = PBXGroup;
 			children = (
 				3AD724E31F9AA75B00F115F9 /* UTairClone */,
 				3AD724E21F9AA75B00F115F9 /* Products */,
+				1F739F06EC74142117386EE3 /* Pods */,
+				0A7C08B941EED018AE4C6052 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +118,10 @@
 				3AD725021F9AE0F700F115F9 /* MyTickets.storyboard */,
 				3AD725041F9AE41700F115F9 /* SignUp.storyboard */,
 				3AD725061F9AE42F00F115F9 /* Purchase.storyboard */,
+				3AC23C8B1F9EAE05006F363D /* FromToCitiesViewController.swift */,
+				3AC23C891F9EAB50006F363D /* PurchaseViewController.swift */,
+				3AC23C871F9EA855006F363D /* FlightOrder.swift */,
+				3AC23C7B1F9E9379006F363D /* City Searcher */,
 			);
 			path = UTairClone;
 			sourceTree = "<group>";
@@ -74,6 +133,9 @@
 				3AD724EB1F9AA75B00F115F9 /* Assets.xcassets */,
 				3AD724ED1F9AA75B00F115F9 /* LaunchScreen.storyboard */,
 				3AD724F01F9AA75B00F115F9 /* Info.plist */,
+				3AC23C811F9E9A24006F363D /* icnGlobalDotBig1.png */,
+				3AC23C851F9E9C46006F363D /* icnGlobalDotsSmall.png */,
+				3AC23C7F1F9E9A24006F363D /* icnGlobalDotBig2.png */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -85,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AD724F31F9AA75B00F115F9 /* Build configuration list for PBXNativeTarget "UTairClone" */;
 			buildPhases = (
+				A79A148F8C7471AD9D7E2D4B /* [CP] Check Pods Manifest.lock */,
 				3AD724DD1F9AA75B00F115F9 /* Sources */,
 				3AD724DE1F9AA75B00F115F9 /* Frameworks */,
 				3AD724DF1F9AA75B00F115F9 /* Resources */,
+				63B4B33BB18AF74D01CE8542 /* [CP] Embed Pods Frameworks */,
+				F73C0A334720D2876463E0D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,8 +204,11 @@
 			files = (
 				3AD725031F9AE0F700F115F9 /* MyTickets.storyboard in Resources */,
 				3AD724EF1F9AA75B00F115F9 /* LaunchScreen.storyboard in Resources */,
+				3AC23C821F9E9A30006F363D /* icnGlobalDotBig1.png in Resources */,
+				3AC23C861F9E9C4B006F363D /* icnGlobalDotsSmall.png in Resources */,
 				3AD724EC1F9AA75B00F115F9 /* Assets.xcassets in Resources */,
 				3AD725071F9AE42F00F115F9 /* Purchase.storyboard in Resources */,
+				3AC23C831F9E9A34006F363D /* icnGlobalDotBig2.png in Resources */,
 				3AD724EA1F9AA75B00F115F9 /* Main.storyboard in Resources */,
 				3AD725051F9AE41700F115F9 /* SignUp.storyboard in Resources */,
 			);
@@ -148,12 +216,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		63B4B33BB18AF74D01CE8542 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UTairClone/Pods-UTairClone-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UTairClone/Pods-UTairClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A79A148F8C7471AD9D7E2D4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UTairClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F73C0A334720D2876463E0D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UTairClone/Pods-UTairClone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3AD724DD1F9AA75B00F115F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AC23C881F9EA855006F363D /* FlightOrder.swift in Sources */,
+				3AC23C791F9E936C006F363D /* CitySearcherViewModel.swift in Sources */,
+				3AC23C7A1F9E936C006F363D /* City.swift in Sources */,
+				3AC23C8A1F9EAB50006F363D /* PurchaseViewController.swift in Sources */,
+				3AC23C8C1F9EAE05006F363D /* FromToCitiesViewController.swift in Sources */,
+				3AC23C771F9E936C006F363D /* MeetUpApi.swift in Sources */,
 				3AD724E51F9AA75B00F115F9 /* AppDelegate.swift in Sources */,
+				3AC23C781F9E936C006F363D /* CitySearcherViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +421,7 @@
 		};
 		3AD724F41F9AA75B00F115F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF870DF330838C334A59B832 /* Pods-UTairClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +438,7 @@
 		};
 		3AD724F51F9AA75B00F115F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E95F8638B45A85A9479D2B6D /* Pods-UTairClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
