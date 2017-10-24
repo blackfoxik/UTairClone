@@ -22,7 +22,7 @@ class FromToCitiesViewController: UIViewController {
     
     private func selectCity() -> City? {
         //durty method, need to replace with enum for storyboards and their controllers
-        let storyboard = UIStoryboard(name: "Purchase", bundle: Bundle.main)
+        let storyboard = AppStoryboard.Purchase.instance
         let citySearcherViewController = storyboard.instantiateViewController(withIdentifier: "CitySearcherViewController") as? CitySearcherViewController
         
         let city: City? = City()
