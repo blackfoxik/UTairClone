@@ -21,10 +21,7 @@ class FromToCitiesViewController: UIViewController {
     }
     
     private func selectCity() -> City? {
-        //durty method, need to replace with enum for storyboards and their controllers
-        let storyboard = AppStoryboard.Purchase.instance
-        let citySearcherViewController = storyboard.instantiateViewController(withIdentifier: "CitySearcherViewController") as? CitySearcherViewController
-        
+        let citySearcherViewController = CitySearcherViewController.instantiateFromAppStoryboard(appStoryboard: .Purchase)
         let city: City? = City()
         citySearcherViewController?.setSelectedCity = { selectedCity in
             
@@ -41,10 +38,5 @@ class FromToCitiesViewController: UIViewController {
        
         present(citySearcherViewController!, animated: true)
         return city
-    }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 }

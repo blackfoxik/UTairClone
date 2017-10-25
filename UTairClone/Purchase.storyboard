@@ -110,7 +110,7 @@
         <!--City Searcher View Controller-->
         <scene sceneID="D4p-86-RWZ">
             <objects>
-                <viewController restorationIdentifier="CitySearcherViewController" storyboardIdentifier="CitySearcherViewController" id="HWm-sb-vjY" customClass="CitySearcherViewController" customModule="UTairClone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CitySearcherViewController" id="HWm-sb-vjY" customClass="CitySearcherViewController" customModule="UTairClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="czy-HG-gGK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
